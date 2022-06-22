@@ -1,0 +1,2 @@
+# CSIT314-Project
+design and develop a contactless table ordering system for a restaurant. This system will enable the restaurant’s customers to order food and drinks from the restaurant’s digital menu and pay for them directly using the system that is running on their phone, tablet or computer. To access the system, customers can scan a QR code or enter a unique code that is placed on each table.

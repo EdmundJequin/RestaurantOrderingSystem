@@ -1,0 +1,287 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    background: white;
+
+}
+
+label.welcome{
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 35px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a.logout {
+    margin-right: 15px;
+    margin-top: 30px;
+    float: right;
+    background: #790604;
+    color: #fff;
+    padding: 7px 7px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+ul{
+    width: auto;
+    margin-top: 50px;
+}
+
+li{
+    display: inline-block;
+    margin: 5px;
+    margin-right: 40px;
+}
+
+a.navbar{
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left:10px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #A9A9A9;
+    color: black;
+}
+
+a.navbar:hover{
+    opacity: 0.5;
+    background-color: #7a7a7a;
+}
+
+h1{
+    display: inline-block;
+    position: absolute;
+    left: 350px;
+    top: 50px;
+    font-size: 30px;
+}
+
+h2{
+    display: inline-block;
+    position: relative;
+    left: 350px;
+    top: 115px;
+    font-size: 20px;
+    color: #528AAE;
+}
+
+h3{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    left: 350px;
+    top: 120px;
+    color: green;
+}
+
+h4{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    left: 350px;
+    top: 130px;
+    color: #708090;
+}
+
+form{
+    display: inline-block;
+    position:absolute;
+    left:350px;
+    top: 130px;
+}
+
+input.fill{
+    display: block;
+    border: 2px solid gray;
+    width: 500px;
+    padding: 5px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+input.num{
+    display: block;
+    border: 2px solid gray;
+    width: 200px;
+    padding: 5px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+label.frm{
+    padding-left:12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+select {
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 100%;
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+ }
+
+select::-ms-expand {
+    display: none;
+}
+
+div.select { 
+    margin: 8px;
+    border: none; 
+    width: 200px;
+    padding-bottom: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+input.create{
+    padding: 5px 15px;
+    margin-left: 5px;
+}
+
+div.container{
+    display:inline;
+    position: relative;
+    top: 110px;
+    left: 350px;
+}
+
+table.channel{
+    border-collapse: collapse;
+    min-width: 1100px;
+    border-radius: 7px 7px 0 0;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+table.channel thead tr{
+    background-color: #528AAE;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+table.channel th, 
+table.channel td{
+    padding: 8px 15px;
+}
+
+table.channel tbody tr{
+    border-bottom: 1px solid gray;
+}
+
+table.launch{
+    border-collapse: collapse;
+    min-width: 1100px;
+    border-radius: 7px 7px 0 0;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+table.launch thead tr{
+    background-color: green;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+table.launch th, 
+table.launch td{
+    padding: 8px 15px;
+}
+
+table.launch tbody tr{
+    border-bottom: 1px solid gray;
+}
+
+table.studuser{
+    border-collapse: collapse;
+    min-width: 1100px;
+    border-radius: 7px 7px 0 0;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+table.studuser thead tr{
+    background-color:#708090;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+table.studuser th, 
+table.studuser td{
+    padding: 8px 15px;
+}
+
+table.studuser tbody tr{
+    border-bottom: 1px solid gray;
+}
+
+nav{
+    display: block;
+    position: absolute;
+    width: 325px;
+    height: 1000px;
+    background-color:#A9A9A9;
+}
+
+.error{
+    background: #f2dede;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.bookerror{
+    background: #f2dede;
+    color: #A94442;
+    padding: 10px;
+    width: 15%;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.bookings{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    left: 350px;
+    top: 120px;
+    color: #528AAE;
+}
+
+.back{
+    position: relative;
+}
+
+button{
+    padding: 10px 25px;
+    margin-top: 20px;
+    background: green;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
